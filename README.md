@@ -67,7 +67,7 @@ VITE_CURRENCY=₹
 
 ### Install & Run
 ```bash
-git clone https://github.com/adarshaady17/Quick-Kart.git
+git clone https://github.com/Pccode27/Quickly-Eommerce.git
 cd Quick-Kart
 
 # Backend API
@@ -163,7 +163,7 @@ The backend is configured for Vercel serverless deployment:
 4. **Production URL**: After deployment, Vercel will provide a URL like `https://your-project.vercel.app`
 
 ### Frontend (Vercel)
-- **Frontend**: https://quick-kart-two.vercel.app
+- **Frontend**: https://quick-kart-lilac.vercel.app/
 - Update `VITE_BACKEND_URL` in frontend environment variables to your backend Vercel URL
 
 **Important**: Ensure environment variables match production domains (e.g., `FRONTEND_URL=https://quick-kart-two.vercel.app`) so cookies and CORS remain valid.
@@ -178,4 +178,3 @@ The backend is configured for Vercel serverless deployment:
 | frontend | `npm run preview` | Preview built assets |
 
 ---
-Questions or deployment issues? Open an issue on GitHub or reach out via the contact info tied to your deployment credentials.
