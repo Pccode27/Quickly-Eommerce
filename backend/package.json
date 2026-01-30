@@ -1,9 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "E-COM-web-site",
   "license": "ISC",
-  "author": "",
+  "author": "Prashant_Chauhan",
   "type": "module",
   "main": "index.js",
   "scripts": {
