@@ -1,8 +1,8 @@
 import User from "../models/user.js";
 import { v2 as cloudinary } from "cloudinary";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcryptjs";
-import fs from "fs";
+import bcrypt from "bcryptjs";              //importing bcrypt for Password hashing
+import fs from "fs";                          
 
 export const registration = async (req, res) => {
   try {
@@ -200,6 +200,7 @@ export const login = async (req, res) => {
     });
   } catch (error) {
     console.log(error.message);
+    console.log("login Failed");
     res.json({
       success: false,
       message: error.message,
